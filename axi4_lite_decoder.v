@@ -10,6 +10,7 @@
 // Address map
 //   Slave0 : 0x0000_0000 - 0x0000_00FF  (ADDR[8] = 0)
 //   Slave1 : 0x0000_0100 - 0x0000_01FF  (ADDR[8] = 1)
+// K VEERA PRASAD NAIK
 // =====================================================================
 module axi_lite_decoder #(
     parameter ADDR_WIDTH = 32
